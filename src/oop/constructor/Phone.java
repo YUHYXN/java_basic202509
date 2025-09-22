@@ -18,20 +18,22 @@ public class Phone {
     }
 
     // 생성자 오버로딩 (중복선언)
-    Phone(String pModel){
+    Phone(String model){
         System.out.println("2번 생성자 호출!");
-        model = pModel;
-        color = "검정색";
-        price = 1000000;
+        // 우측에 있는게 매개변수로 들어감
+        this.model = model;
+        this.color = "검정색";
+        this.price = 1000000;
     }
 
-    Phone(String pModel, String pColor){
+    Phone(String model, String pColor){
         // 나는 폰 모델도 받고, 컬러도 받아.
         System.out.println("3번 생성자 호출!");
-        model = pModel;
-        color = pColor;
+        this.model = model;
+        this.color = pColor;
         price = 1290000;
     }
+
 
     /*
 	 # 생성자 (Constructor)
