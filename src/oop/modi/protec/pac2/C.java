@@ -17,12 +17,12 @@ public class C extends A{
     void test (){
         A a = new A();
 
-        a.f1 = 10; // protected : 다른 패키지에서 접근 불가
-        a.f2 = 20; // default : 다른 패키지에서 접근 불가
-        a.m1();   // protected : 다른 패키지에서 접근 불가
-        a.m2();   // default : 다른 패키지에서 접근 불가
-
-        new A(10);    // protected : 다른 패키지에서 접근 불가
-        new A("adadsda"); // default : 다른 패키지에서 접근 불가
+//        a.f1 = 10; // protected : 다른 패키지에서 접근 불가
+//        a.f2 = 20; // default : 다른 패키지에서 접근 불가
+//        a.m1();   // protected : 다른 패키지에서 접근 불가
+//        a.m2();   // default : 다른 패키지에서 접근 불가
+//
+//        new A(10);    // protected : 다른 패키지에서 접근 불가
+//        new A("adadsda"); // default : 다른 패키지에서 접근 불가
     }
 }
