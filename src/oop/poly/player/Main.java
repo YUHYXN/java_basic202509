@@ -13,6 +13,7 @@ public class Main {
         Warrior w2 = new Warrior(" 렌 ");
 
         Mage m1 = new Mage(" 라라 ");
+
         Mage m2 = new Mage(" 키네시스 ");
 
         Hunter h1 = new Hunter(" 윈드브레이커 ", " 핀포인트 ");
@@ -20,6 +21,12 @@ public class Main {
 
 
         m1.blizzard(w1,w2,h1,h2);
+
+//        h1.magicArrow(w1,w2,m1,m2,h1,h2);
+
+        h1.magicArrow(w2);
+        h1.magicArrow(m2);
+        h1.magicArrow(h2);
 
 
     }
