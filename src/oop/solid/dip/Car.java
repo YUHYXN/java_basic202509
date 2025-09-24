@@ -1,12 +1,12 @@
 package oop.solid.dip;
 
 public class Car {
-    private Tire forntLeft;
-    private Tire forntRight;
-    private Tire backLeft;
-    private Tire backRight;
+    private final Tire forntLeft;
+    private final Tire forntRight;
+    private final Tire backLeft;
+    private final Tire backRight;
 
-    public Car(Tire hankookTire, Tire hankookTire1, Tire michelinTire, Tire michelinTire1) {
+    public Car(Tire forntLeft, Tire forntRight, Tire backLeft, Tire backRight) {
         this.forntLeft = forntLeft;
         this.forntRight = forntRight;
         this.backLeft = backLeft;
