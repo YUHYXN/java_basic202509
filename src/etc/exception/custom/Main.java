@@ -11,8 +11,6 @@ public class Main {
             result = user.authenticate("abc123", "1111");
         } catch (LoginInvaildException e) {
 //            e.printStackTrace();
-            System.out.println(e.getMessage());
-            System.out.println("입력하신 값: " + e.getInvalidAccount());
         }
 
         System.out.println("result = " + result);
