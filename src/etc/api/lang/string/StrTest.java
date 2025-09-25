@@ -15,15 +15,23 @@ public class StrTest {
 
 
 
-        StringBuilder sb = new StringBuilder("a");
-        for (int i = 0; i < 500000; i++) {
-            sb.append("a");
-        } // 0.041초
+//        StringBuilder sb = new StringBuilder("a");
+//        for (int i = 0; i < 500000; i++) {
+//            sb.append("a");
+//        } // 0.041초
 
 
         long end = System.currentTimeMillis();
 
         System.out.println("실행 결과: " + (end - start) * 0.001 + "초");
+
+//        long result = Math.round(3.14159265);
+//        System.out.println("result = " + result);
+
+        double pi = 3.14159265;
+        long result = Math.round(pi*100);
+        System.out.println("result = " + result * 0.01);
+        // 이러면 3.14가 나옴
 
     }
 
