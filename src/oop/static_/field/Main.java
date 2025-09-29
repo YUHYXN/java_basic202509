@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("-------------------");
 
-        Count c2 = new Count();
+        Count c2 = new Count(); //   c2라는 새로운 객체를 생성함.
 
         c2.a += 7;
         Count.b += 7;
