@@ -2,7 +2,7 @@ package oop.static_.method;
 
 public class Count {
 
-    public static  int b;
+    public static int b;
     public int a;
 
     public static void m2(){
