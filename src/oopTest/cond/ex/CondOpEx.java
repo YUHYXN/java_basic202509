@@ -7,5 +7,8 @@ public class CondOpEx {
         int a = 10;
         int b = 20;
 
+        int max = (a > b) ? a : b;  // a가 b보다 크면 a를, 아니면 b를 max에 저장
+        System.out.println("더 큰 숫자는? " + max + "입니다."); // 출력
+
     }
 }
