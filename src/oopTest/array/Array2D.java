@@ -1,6 +1,5 @@
-package oopTest.Arrayy;
+package oopTest.array;
 
-import java.awt.print.Printable;
 import java.util.Scanner;
 
 public class Array2D {
